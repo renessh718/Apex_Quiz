@@ -6,13 +6,13 @@ const firebaseConfig = {
     storageBucket: "apexquiz-3a5e0.firebasestorage.app",
     messagingSenderId: "533113422093",
     appId: "1:533113422093:web:080b69db9e5963e8b8b044",
-    databaseURL: "https://apexquiz-3a5e0-default-rtdb.firebaseio.com" // fixed URL
+    databaseURL: "https://apexquiz-3a5e0-default-rtdb.firebaseio.com"
 };
 
-// Initialize Firebase (v8 syntax)
+// ===== INITIALIZE FIREBASE (v8 syntax) =====
 firebase.initializeApp(firebaseConfig);
 
-// Firebase services
+// ===== FIREBASE SERVICES =====
 const auth = firebase.auth();
 const db = firebase.firestore();
 const rtdb = firebase.database();
