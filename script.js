@@ -1,18 +1,14 @@
 // ===== FIREBASE CONFIG =====
 const firebaseConfig = {
-    apiKey: "AIzaSyBse9q2podLKT0GJRbBwuBgN2ChqReFbm8",
+    apiKey: "AIzaSyBse9q2podLKToGJRbBwuBgN2ChqReFbm8",
     authDomain: "apexquiz-3a5e0.firebaseapp.com",
     projectId: "apexquiz-3a5e0",
     storageBucket: "apexquiz-3a5e0.firebasestorage.app",
     messagingSenderId: "533113422093",
     appId: "1:533113422093:web:080b69db9e5963e8b8b044",
-    databaseURL: "https://apexquiz-3a5e0-default-rtdb.firebaseio.com"
+    databaseURL: "https://apexquiz-3a5e0-default-rtdb.europe-west1.firebasedatabase.app"
 };
-
-// ===== INITIALIZE FIREBASE (v8 syntax) =====
 firebase.initializeApp(firebaseConfig);
-
-// ===== FIREBASE SERVICES =====
 const auth = firebase.auth();
 const db = firebase.firestore();
 const rtdb = firebase.database();
